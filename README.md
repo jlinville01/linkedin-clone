@@ -1,6 +1,6 @@
-# Retro Game E-Commerce Store
+# LinkedIn Clone
 
-![Project logo](https://github.com/jlinville01/retro-game-store/blob/main/assets/retro-game-logo.png?raw=true)
+![Project logo](https://github.com/jlinville01/linkedin-clone/blob/main/assets/logo.png?raw=true)
 
 ## Setup
 
