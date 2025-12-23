@@ -1,3 +1,5 @@
+import justinProfile from "@/assets/justin-profile.jpg";
+
 export interface User {
   id: number;
   name: string;
@@ -118,7 +120,7 @@ export function generateFakeUsers(count: number = 30): User[] {
     id: 1,
     name: "Justin Linville",
     headline: "Software QA Professional",
-    avatar: `https://i.pravatar.cc/150?img=1`,
+    avatar: justinProfile,
     connections: Math.floor(Math.random() * 2000) + 100,
     company: undefined
   });
