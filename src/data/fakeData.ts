@@ -113,7 +113,17 @@ function generateRandomDate(daysAgo: number): Date {
 export function generateFakeUsers(count: number = 30): User[] {
   const users: User[] = [];
   
-  for (let i = 1; i <= count; i++) {
+  // First user is the current user (Justin Linville)
+  users.push({
+    id: 1,
+    name: "Justin Linville",
+    headline: "Software QA Professional",
+    avatar: `https://i.pravatar.cc/150?img=1`,
+    connections: Math.floor(Math.random() * 2000) + 100,
+    company: undefined
+  });
+  
+  for (let i = 2; i <= count; i++) {
     const firstName = getRandomElement(firstNames);
     const lastName = getRandomElement(lastNames);
     
